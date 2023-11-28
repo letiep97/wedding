@@ -105,6 +105,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   line-height: 40px;
   font-family: 'Playfair Display',  Arial, serif;
+  font-style: italic;
 }
 .fh5co-nav a {
   padding: 5px 10px;
@@ -506,7 +507,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
-  border-radius: 4px;
+  border-radius: 13px;
 }
 .timeline > li > .timeline-panel:before {
   position: absolute;
@@ -542,6 +543,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .timeline > li > .timeline-badge {
+  border: 10px solid #ffecee;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -853,8 +855,10 @@ form label {
 #fh5co-counter .display-tc h1,
 .fh5co-cover .display-tc h1 {
   margin-bottom: 0px;
-  font-size: 88px;
-  line-height: 1.5;
+  font-size: 93px;
+  line-height: 1.4;
+  font-weight: bold;
+  font-style: italic;
   font-family: "Playfair Display", Arial, serif;
   text-shadow: 2px 2px 8px black;
 }
@@ -862,7 +866,7 @@ form label {
   #fh5co-header .display-tc h1,
   #fh5co-counter .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 45px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -877,6 +881,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
   line-height: 1.5;
+  margin-top: 10px;
   margin-bottom: 30px;
   text-shadow: 2px 2px 8px black;
 }
@@ -1102,6 +1107,8 @@ form label {
 }
 .couple-half h3 {
   font-family: 'Playfair Display',  Arial, serif;
+  font-style: italic;
+  font-weight: bold;
   color: #f14e4e;
   font-size: 30px;
 }
@@ -1219,6 +1226,7 @@ form label {
   font-weight: bold;
   color: #f14e4e;
   font-family: 'Playfair Display',  Arial, serif;
+  font-style: italic;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
